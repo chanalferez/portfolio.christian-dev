@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Chan</title>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Personal Blog">
+        <meta name="author" content="C.Alferez">
+        <meta name="keywords" content="Portfolio, Software Engineer, Software Developer, Software Engineer Portfolio, Software Developer Portfolio, Developer Portfolio, Christian Alferez, Chan Alferez, Chan Alferez, Christian A.">
+
+        <link href="assets/img/web-icon.png" rel="icon">
+
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/theme.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+
+        <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    </head>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        <!-- nav-content -->
+        <div data-includeHTML="shared-page/nav-content.html"></div>
+
+        <header class="intro">
+            <div class="intro-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h1 class="brand-heading">CHRISTIAN ALFEREZ</h1>
+                            <p class="intro-text">
+                                SOFTWARE ENGINEER | .NET DEVELOPER | FULL-STACK DEVELOPER
+                            </p>
+                            <a href="#about" class="btn btn-circle page-scroll animate-down">
+                                <i class="fa fa-angle-double-down"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <section id="about">
+            <div class="container content-section text-center">
+                <div class="row">
+                    <h2>LIL' ABOUT ME</h2>
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p>
+                            Experienced Software Engineer
+                        </p>
+                        <p>
+                            I am an accomplished Software Engineer with extensive experience in the web development industry, specializing in a range of technologies including ASP.NET MVC, ASP.NET Core, and ASP.NET Core MVC. My skill set encompasses both front-end and back-end development, with proficiency in Microsoft SQL Server, JavaScript, jQuery, HTML, CSS, Bootstrap, and C#. I am adept at utilizing Azure DevOps for streamlined project management and have expertise in building and integrating REST APIs, using Postman for API testing, and leveraging Visual Studio for efficient development.
+                        </p>
+                        <p>
+                            Holding a Bachelor of Science in Information Technology from Asian College of Technology - Cebu, I am committed to delivering robust, scalable web solutions and continuously advancing my technical skills.
+                        </p>
+                        <p>
+                            <a href="/chanatph/CAlferez_CV.pdf" class="btnghost" role="button" download><i class="fa fa-download"></i> Curriculum Vitae</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- script -->
+        <div data-includeHTML="shared-page/include-js.html"></div>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script type="">
+            $(document).ready(function () {
+                $("div[data-includeHTML]").each(function () {                
+                    $(this).load($(this).attr("data-includeHTML"));
+                });
+            });
+        </script>
+    </body>
+</html>

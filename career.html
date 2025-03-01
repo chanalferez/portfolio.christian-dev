@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Career - Chan</title>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Personal Blog">
+        <meta name="author" content="C.Alferez">
+        <meta name="keywords" content="Portfolio, Software Engineer, Software Developer, Software Engineer Portfolio, Software Developer Portfolio, Developer Portfolio, Christian Alferez, Chan Alferez, Chan Alferez, Christian A.">
+
+        <link href="assets/img/web-icon.png" rel="icon">
+
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/theme.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+
+        <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    </head>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        <!-- nav-content -->
+        <div data-includeHTML="shared-page/nav-content.html"></div>
+
+        <header class="intro">
+            <div class="intro-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h1 class="brand-heading">My Career</h1>
+                            <p class="intro-text">
+                                
+                            </p>
+                            <a href="#about" class="btn btn-circle page-scroll animate-down">
+                                <i class="fa fa-angle-double-down"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- script -->
+        <div data-includeHTML="shared-page/include-js.html"></div>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script type="">
+            $(document).ready(function () {
+                $("div[data-includeHTML]").each(function () {                
+                    $(this).load($(this).attr("data-includeHTML"));
+                });
+            });
+        </script>
+    </body>
+</html>
